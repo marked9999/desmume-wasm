@@ -1,1 +1,8 @@
 
+{
+  "name": "scripted",
+  "scripts": {
+    "build": "yarn guild",
+    "test": "yarn run"
+  }
+}
