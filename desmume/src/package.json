@@ -1,8 +1,8 @@
 
 {
-  "name": "scripted",
+  "name": "start",
   "scripts": {
-    "build": "yarn start",
+    "build": "yarn",
     "test": "yarn run"
   }
 }
