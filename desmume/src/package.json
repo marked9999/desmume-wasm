@@ -2,7 +2,7 @@
 {
   "name": "scripted",
   "scripts": {
-    "build": "yarn guild",
+    "build": "yarn start",
     "test": "yarn run"
   }
 }
