@@ -1,7 +1,9 @@
 FROM ubuntu
 MAINTAINER jewels
-RUN docker pip install cd
-RUN docker gem install cd
+
+RUN sudo install install cd
+
+RUN gem install cd
 RUN cd desmume/src/frontend/posix/
 RUN ./autogen.sh
 RUN ./configure
