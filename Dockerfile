@@ -1,8 +1,8 @@
 FROM ubuntu
 MAINTAINER jewels
-RUN wget -O - http://sourceforge.net/projects/desmume/files/desmume/0.9.11/desmume-0.9.11.tar.gz/download 
-RUN cd desmume-0.9.11
+
+RUN cd desmume/src/frontend/posix/
+RUN ./autogen.sh
 RUN ./configure
 RUN make
 RUN sudo make install
-
