@@ -1,7 +1,5 @@
 FROM ubuntu
 MAINTAINER jewels
-
-RUN
 ECHO sudo install cd
 
 RUN gem install cd
