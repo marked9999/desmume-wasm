@@ -4,9 +4,9 @@ RUN cd /tmp \
 && apt-get install -y curl apt-utils wget unzip\
 && rm -rf /var/lib/apt/lists/*
 
-#RUN yum -y install wget
+# RUN yum -y install wget
 
-RUN sudo install cd
+# RUN sudo install cd
 
 RUN cd desmume/src/frontend/posix/
 RUN ./autogen.sh
