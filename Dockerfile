@@ -1,3 +1,4 @@
+FROM ubuntu
 
 RUN sudo install cd
 
