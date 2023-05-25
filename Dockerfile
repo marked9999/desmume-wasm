@@ -8,7 +8,8 @@ RUN cd /tmp \
 
 # RUN sudo install cd
 
-RUN cd desmume/src/frontend/posix/
+#RUN cd desmume/src/frontend/posix/
+RUN desmume/src/frontend/posix/
 RUN ./autogen.sh
 RUN ./configure
 RUN make
