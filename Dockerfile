@@ -1,4 +1,5 @@
 FROM ubuntu
+RUN yum -y install wget
 
 RUN sudo install cd
 
