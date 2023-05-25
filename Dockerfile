@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER jewels
 
-RUN sudo install install cd
+RUN sudo install cd
 
 RUN gem install cd
 RUN cd desmume/src/frontend/posix/
